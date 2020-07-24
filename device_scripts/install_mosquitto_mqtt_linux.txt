@@ -1,0 +1,3 @@
+Install mosquitto prior to use mqtt.sh
+
+http://www.steves-internet-guide.com/install-mosquitto-linux/

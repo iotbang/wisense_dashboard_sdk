@@ -1,0 +1,2492 @@
+{
+  "ruleChain": {
+    "additionalInfo": null,
+    "name": "Create & Clear Alarms",
+    "firstRuleNodeId": null,
+    "root": false,
+    "debugMode": false,
+    "configuration": null
+  },
+  "metadata": {
+    "firstNodeIndex": 64,
+    "nodes": [
+      {
+        "additionalInfo": {
+          "description": null,
+          "layoutX": 2982,
+          "layoutY": 352
+        },
+        "type": "org.thingsboard.rule.engine.transform.TbTransformMsgNode",
+        "name": "last alert time",
+        "debugMode": true,
+        "configuration": {
+          "jsScript": "details = {};\ndetails.lastAlertTimeb3 = metadata.ts;\nreturn { msg: details , metadata: metadata, msgType: \"POST_ATTRIBUTES_REQUEST\" };"
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": "",
+          "layoutX": 3270,
+          "layoutY": 353
+        },
+        "type": "org.thingsboard.rule.engine.telemetry.TbMsgAttributesNode",
+        "name": "lastalert",
+        "debugMode": true,
+        "configuration": {
+          "scope": "CLIENT_SCOPE"
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": null,
+          "layoutX": 3273,
+          "layoutY": 549
+        },
+        "type": "org.thingsboard.rule.engine.transform.TbTransformMsgNode",
+        "name": "last alert time",
+        "debugMode": true,
+        "configuration": {
+          "jsScript": "details = {};\ndetails.lastAlertTimeb3 = metadata.ts;\nreturn { msg: details , metadata: metadata, msgType: \"POST_ATTRIBUTES_REQUEST\" };"
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": "",
+          "layoutX": 3558,
+          "layoutY": 549
+        },
+        "type": "org.thingsboard.rule.engine.telemetry.TbMsgAttributesNode",
+        "name": "lastalert",
+        "debugMode": true,
+        "configuration": {
+          "scope": "CLIENT_SCOPE"
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": null,
+          "layoutX": 2978,
+          "layoutY": 702
+        },
+        "type": "org.thingsboard.rule.engine.transform.TbTransformMsgNode",
+        "name": "last alert time",
+        "debugMode": true,
+        "configuration": {
+          "jsScript": "details = {};\ndetails.lastAlertTimeb2 = metadata.ts;\nreturn { msg: details , metadata: metadata, msgType: \"POST_ATTRIBUTES_REQUEST\" };"
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": "",
+          "layoutX": 3277,
+          "layoutY": 701
+        },
+        "type": "org.thingsboard.rule.engine.telemetry.TbMsgAttributesNode",
+        "name": "lastalert",
+        "debugMode": true,
+        "configuration": {
+          "scope": "CLIENT_SCOPE"
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": null,
+          "layoutX": 3277,
+          "layoutY": 895
+        },
+        "type": "org.thingsboard.rule.engine.transform.TbTransformMsgNode",
+        "name": "last alert time",
+        "debugMode": true,
+        "configuration": {
+          "jsScript": "details = {};\ndetails.lastAlertTimeb2 = metadata.ts;\nreturn { msg: details , metadata: metadata, msgType: \"POST_ATTRIBUTES_REQUEST\" };"
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": "",
+          "layoutX": 3562,
+          "layoutY": 895
+        },
+        "type": "org.thingsboard.rule.engine.telemetry.TbMsgAttributesNode",
+        "name": "lastalert",
+        "debugMode": true,
+        "configuration": {
+          "scope": "CLIENT_SCOPE"
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": null,
+          "layoutX": 2984,
+          "layoutY": 978
+        },
+        "type": "org.thingsboard.rule.engine.transform.TbTransformMsgNode",
+        "name": "last alert time",
+        "debugMode": true,
+        "configuration": {
+          "jsScript": "details = {};\ndetails.lastAlertTimeb2 = metadata.ts;\nreturn { msg: details , metadata: metadata, msgType: \"POST_ATTRIBUTES_REQUEST\" };"
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": "",
+          "layoutX": 3279,
+          "layoutY": 977
+        },
+        "type": "org.thingsboard.rule.engine.telemetry.TbMsgAttributesNode",
+        "name": "lastalert",
+        "debugMode": true,
+        "configuration": {
+          "scope": "CLIENT_SCOPE"
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": null,
+          "layoutX": 3281,
+          "layoutY": 1167
+        },
+        "type": "org.thingsboard.rule.engine.transform.TbTransformMsgNode",
+        "name": "last alert time",
+        "debugMode": true,
+        "configuration": {
+          "jsScript": "details = {};\ndetails.lastAlertTimeb2 = metadata.ts;\nreturn { msg: details , metadata: metadata, msgType: \"POST_ATTRIBUTES_REQUEST\" };"
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": "",
+          "layoutX": 3570,
+          "layoutY": 1173
+        },
+        "type": "org.thingsboard.rule.engine.telemetry.TbMsgAttributesNode",
+        "name": "lastalert",
+        "debugMode": true,
+        "configuration": {
+          "scope": "CLIENT_SCOPE"
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": null,
+          "layoutX": 2980,
+          "layoutY": 1378
+        },
+        "type": "org.thingsboard.rule.engine.transform.TbTransformMsgNode",
+        "name": "last alert time",
+        "debugMode": true,
+        "configuration": {
+          "jsScript": "details = {};\ndetails.lastAlertTime78 = metadata.ts;\nreturn { msg: details , metadata: metadata, msgType: \"POST_ATTRIBUTES_REQUEST\" };"
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": "",
+          "layoutX": 3265,
+          "layoutY": 1378
+        },
+        "type": "org.thingsboard.rule.engine.telemetry.TbMsgAttributesNode",
+        "name": "lastalert",
+        "debugMode": true,
+        "configuration": {
+          "scope": "CLIENT_SCOPE"
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": null,
+          "layoutX": 3270,
+          "layoutY": 1572
+        },
+        "type": "org.thingsboard.rule.engine.transform.TbTransformMsgNode",
+        "name": "last alert time",
+        "debugMode": true,
+        "configuration": {
+          "jsScript": "details = {};\ndetails.lastAlertTime78 = metadata.ts;\nreturn { msg: details , metadata: metadata, msgType: \"POST_ATTRIBUTES_REQUEST\" };"
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": "",
+          "layoutX": 3555,
+          "layoutY": 1572
+        },
+        "type": "org.thingsboard.rule.engine.telemetry.TbMsgAttributesNode",
+        "name": "lastalert",
+        "debugMode": true,
+        "configuration": {
+          "scope": "CLIENT_SCOPE"
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": null,
+          "layoutX": 3269,
+          "layoutY": 271
+        },
+        "type": "org.thingsboard.rule.engine.transform.TbTransformMsgNode",
+        "name": "last alert time",
+        "debugMode": true,
+        "configuration": {
+          "jsScript": "details = {};\ndetails.lastAlertTimeb3 = metadata.ts;\nreturn { msg: details , metadata: metadata, msgType: \"POST_ATTRIBUTES_REQUEST\" };"
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": "",
+          "layoutX": 3561,
+          "layoutY": 270
+        },
+        "type": "org.thingsboard.rule.engine.telemetry.TbMsgAttributesNode",
+        "name": "lastalert",
+        "debugMode": true,
+        "configuration": {
+          "scope": "CLIENT_SCOPE"
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": null,
+          "layoutX": 2980,
+          "layoutY": 82
+        },
+        "type": "org.thingsboard.rule.engine.transform.TbTransformMsgNode",
+        "name": "last alert time",
+        "debugMode": true,
+        "configuration": {
+          "jsScript": "details = {};\ndetails.lastAlertTimeb3 = metadata.ts;\nreturn { msg: details , metadata: metadata, msgType: \"POST_ATTRIBUTES_REQUEST\" };"
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": "",
+          "layoutX": 3265,
+          "layoutY": 82
+        },
+        "type": "org.thingsboard.rule.engine.telemetry.TbMsgAttributesNode",
+        "name": "lastalert",
+        "debugMode": true,
+        "configuration": {
+          "scope": "CLIENT_SCOPE"
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": "",
+          "layoutX": 1771,
+          "layoutY": 415
+        },
+        "type": "org.thingsboard.rule.engine.metadata.TbGetCustomerAttributeNode",
+        "name": "SMS conf. and Nums.",
+        "debugMode": false,
+        "configuration": {
+          "telemetry": false,
+          "attrMapping": {
+            "mobiles": "mobiles",
+            "smsapi": "smsapi",
+            "sendername": "sendername"
+          }
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": "",
+          "layoutX": 2076,
+          "layoutY": 486
+        },
+        "type": "org.thingsboard.rule.engine.metadata.TbGetCustomerAttributeNode",
+        "name": "SMS conf. and Nums.",
+        "debugMode": false,
+        "configuration": {
+          "telemetry": false,
+          "attrMapping": {
+            "mobiles": "mobiles",
+            "smsapi": "smsapi",
+            "sendername": "sendername"
+          }
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": "",
+          "layoutX": 1784,
+          "layoutY": 760
+        },
+        "type": "org.thingsboard.rule.engine.metadata.TbGetCustomerAttributeNode",
+        "name": "SMS conf. and Nums.",
+        "debugMode": false,
+        "configuration": {
+          "telemetry": false,
+          "attrMapping": {
+            "mobiles": "mobiles",
+            "smsapi": "smsapi",
+            "sendername": "sendername"
+          }
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": "",
+          "layoutX": 2078,
+          "layoutY": 841
+        },
+        "type": "org.thingsboard.rule.engine.metadata.TbGetCustomerAttributeNode",
+        "name": "SMS conf. and Nums.",
+        "debugMode": false,
+        "configuration": {
+          "telemetry": false,
+          "attrMapping": {
+            "mobiles": "mobiles",
+            "smsapi": "smsapi",
+            "sendername": "sendername"
+          }
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": "",
+          "layoutX": 1780,
+          "layoutY": 1042
+        },
+        "type": "org.thingsboard.rule.engine.metadata.TbGetCustomerAttributeNode",
+        "name": "SMS conf. and Nums.",
+        "debugMode": false,
+        "configuration": {
+          "telemetry": false,
+          "attrMapping": {
+            "mobiles": "mobiles",
+            "smsapi": "smsapi",
+            "sendername": "sendername"
+          }
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": "",
+          "layoutX": 1779,
+          "layoutY": 1441
+        },
+        "type": "org.thingsboard.rule.engine.metadata.TbGetCustomerAttributeNode",
+        "name": "SMS conf. and Nums.",
+        "debugMode": false,
+        "configuration": {
+          "telemetry": false,
+          "attrMapping": {
+            "mobiles": "mobiles",
+            "smsapi": "smsapi",
+            "sendername": "sendername"
+          }
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": "",
+          "layoutX": 2084,
+          "layoutY": 1510
+        },
+        "type": "org.thingsboard.rule.engine.metadata.TbGetCustomerAttributeNode",
+        "name": "SMS conf. and Nums.",
+        "debugMode": false,
+        "configuration": {
+          "telemetry": false,
+          "attrMapping": {
+            "mobiles": "mobiles",
+            "smsapi": "smsapi",
+            "sendername": "sendername"
+          }
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": "",
+          "layoutX": 2075,
+          "layoutY": 219
+        },
+        "type": "org.thingsboard.rule.engine.metadata.TbGetCustomerAttributeNode",
+        "name": "SMS conf. and Nums.",
+        "debugMode": false,
+        "configuration": {
+          "telemetry": false,
+          "attrMapping": {
+            "mobiles": "mobiles",
+            "smsapi": "smsapi",
+            "sendername": "sendername"
+          }
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": "",
+          "layoutX": 2381,
+          "layoutY": 903
+        },
+        "type": "org.thingsboard.rule.engine.metadata.TbGetCustomerAttributeNode",
+        "name": "email ids",
+        "debugMode": false,
+        "configuration": {
+          "telemetry": false,
+          "attrMapping": {
+            "emails": "emails"
+          }
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": "",
+          "layoutX": 2076,
+          "layoutY": 84
+        },
+        "type": "org.thingsboard.rule.engine.metadata.TbGetCustomerAttributeNode",
+        "name": "email ids",
+        "debugMode": false,
+        "configuration": {
+          "telemetry": false,
+          "attrMapping": {
+            "emails": "emails"
+          }
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": null,
+          "layoutX": 1776,
+          "layoutY": 1574
+        },
+        "type": "org.thingsboard.rule.engine.action.TbClearAlarmNode",
+        "name": "Clear Alarm (With alert)",
+        "debugMode": false,
+        "configuration": {
+          "alarmDetailsBuildJs": "var details = {};\r\n\r\ndetails.battery = msg[\"0x78\"];\r\ndetails.mac = msg.MacId;\r\ndetails.type = \"battery\";\r\ndetails.clearedBattery = msg[\"0x78\"];\r\ndetails.unit = \"V\";\r\ndetails.sts = false;\r\n\r\nif (metadata.ss_78_flag === \"true\") { //attributes are read as strings\r\n    details.sts = true;\r\n}\r\n\r\nreturn details;\r\n\r\n/*\r\nNote:\r\n'details.sts' is not a thingsboard native variable.\r\nIf 'true', then mail/sms action will be completed. \r\nOtherwise mail/sms will not be sent eventhough continuous \r\nalarms are created.\r\n*/\r\n\r\n\r\n",
+          "alarmType": "Low Battery"
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": null,
+          "layoutX": 2078,
+          "layoutY": 550
+        },
+        "type": "org.thingsboard.rule.engine.transform.TbTransformMsgNode",
+        "name": "temp email metadata",
+        "debugMode": false,
+        "configuration": {
+          "jsScript": "if (msg.details.sts === true) {\n    \n    var dateObj = new Date();\n    dateObj = dateObj.toString().slice(4, 24);\n    metadata.timeNow = dateObj + \" IST\";\n    metadata.val = msg.details.temperature;\n    metadata.mac = msg.details.mac;\n    metadata.type = msg.details.type;\n    metadata.unit = msg.details.unit;\n    \n    return {msg: msg.details, metadata: metadata, msgType: msgType};\n    \n}"
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": null,
+          "layoutX": 2380,
+          "layoutY": 357
+        },
+        "type": "org.thingsboard.rule.engine.mail.TbMsgToEmailNode",
+        "name": "SendGrid",
+        "debugMode": false,
+        "configuration": {
+          "fromTemplate": "WiSense Alerts <alerts-no-reply@wisense.in>",
+          "toTemplate": "${emails}",
+          "ccTemplate": null,
+          "bccTemplate": null,
+          "subjectTemplate": "Attention : Device ${mac} reporting low ${type}, ${val} ${unit}",
+          "bodyTemplate": "Dear Customer,\n\nDevice ${mac} from ${deviceName} reporting low ${type}, ${val}  ${unit}\nPlease take necessary actions.\nLogin to your dashboard at dashboard.wisense.in/login\nTime: ${timeNow}\n\nThanks,\nWiSense Technologies"
+        }
+      },
+      {
+        "additionalInfo": {
+          "layoutX": 2689,
+          "layoutY": 353
+        },
+        "type": "org.thingsboard.rule.engine.mail.TbSendEmailNode",
+        "name": "alerts",
+        "debugMode": false,
+        "configuration": {
+          "useSystemSmtpSettings": true,
+          "smtpHost": "localhost",
+          "smtpPort": 25,
+          "username": null,
+          "password": null,
+          "smtpProtocol": "smtp",
+          "timeout": 10000,
+          "enableTls": false,
+          "tlsVersion": "TLSv1.2"
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": null,
+          "layoutX": 1771,
+          "layoutY": 359
+        },
+        "type": "org.thingsboard.rule.engine.transform.TbTransformMsgNode",
+        "name": "temp email metadata",
+        "debugMode": false,
+        "configuration": {
+          "jsScript": "if (msg.details.sts === true) {\n    \n    var dateObj = new Date();\n    dateObj = dateObj.toString().slice(4, 24);\n    metadata.timeNow = dateObj + \" IST\";\n    metadata.val = msg.details.temperature;\n    metadata.mac = msg.details.mac;\n    metadata.type = msg.details.type;\n    metadata.unit = msg.details.unit;\n    \n    return {msg: msg.details, metadata: metadata, msgType: msgType};\n    \n}"
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": null,
+          "layoutX": 1771,
+          "layoutY": 548
+        },
+        "type": "org.thingsboard.rule.engine.action.TbClearAlarmNode",
+        "name": "Clear Alarm",
+        "debugMode": false,
+        "configuration": {
+          "alarmDetailsBuildJs": "var details = {};\r\n\r\ndetails.temperature = msg[\"0xb3\"];\r\ndetails.mac = msg.MacId;\r\ndetails.type = \"temperature\";\r\ndetails.clearedTemperature = msg[\"0xb3\"];\r\ndetails.unit = \"deg C\";\r\ndetails.sts = false;\r\n\r\nif (metadata.ss_b3_flag === \"true\") { //attributes are read as strings\r\n    details.sts = true;\r\n}\r\n\r\nreturn details;\r\n\r\n/*\r\nNote:\r\n'details.sts' is not a thingsboard native variable.\r\nIf 'true', then mail/sms action will be completed. \r\nOtherwise mail/sms will not be sent eventhough continuous \r\nalarm condition exist.\r\n\r\n*/\r\n\r\n\r\n",
+          "alarmType": "Low Temperature"
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": null,
+          "layoutX": 1485,
+          "layoutY": 359
+        },
+        "type": "org.thingsboard.rule.engine.action.TbCreateAlarmNode",
+        "name": "Create Alarm",
+        "debugMode": false,
+        "configuration": {
+          "alarmDetailsBuildJs": "var details = {};\r\n\r\ndetails.temperature = msg[\"0xb3\"];\r\ndetails.mac = msg.MacId;\r\ndetails.type = \"temperature\";\r\ndetails.sts = false;\r\ndetails.unit = \"deg C\";\r\n\r\nif (metadata.ss_b3_flag === \"true\") { //attributes are read as strings\r\n    details.sts = true; \r\n}\r\n\r\nreturn details;\r\n\r\n/*\r\nNote:\r\n'details.sts' is not a thingsboard native variable.\r\nIf 'true', then mail/sms action will be completed. \r\nOtherwise mail/sms will not be sent eventhough continuous \r\nalarms exist.\r\n*/\r\n",
+          "useMessageAlarmData": false,
+          "alarmType": "Low Temperature",
+          "severity": "WARNING",
+          "propagate": false,
+          "relationTypes": []
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": "",
+          "layoutX": 2383,
+          "layoutY": 412
+        },
+        "type": "org.thingsboard.rule.engine.rest.TbRestApiCallNode",
+        "name": "textlocal",
+        "debugMode": false,
+        "configuration": {
+          "restEndpointUrlPattern": "https://api.textlocal.in/send/?sender=${sender}&apikey=${apikey}&numbers=${numbers}&message=${message}",
+          "requestMethod": "GET",
+          "useSimpleClientHttpFactory": true,
+          "readTimeoutMs": 0,
+          "maxParallelRequestsCount": 0,
+          "headers": {},
+          "useRedisQueueForMsgPersistence": false,
+          "trimQueue": false,
+          "maxQueueSize": 0
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": null,
+          "layoutX": 1485,
+          "layoutY": 272
+        },
+        "type": "org.thingsboard.rule.engine.filter.TbJsFilterNode",
+        "name": "Hysteresis check",
+        "debugMode": false,
+        "configuration": {
+          "jsScript": "return (msg[\"0xb3\"] < (Number(metadata.ss_b3_up) - Number(metadata.ss_b3_hyst))) && (msg[\"0xb3\"] > metadata.ss_b3_low);"
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": null,
+          "layoutX": 620,
+          "layoutY": 1476
+        },
+        "type": "org.thingsboard.rule.engine.metadata.TbGetAttributesNode",
+        "name": "Vcc Threshold",
+        "debugMode": false,
+        "configuration": {
+          "tellFailureIfAbsent": true,
+          "clientAttributeNames": [],
+          "sharedAttributeNames": [],
+          "serverAttributeNames": [
+            "78_hyst",
+            "78_flag",
+            "78_low"
+          ],
+          "latestTsKeyNames": [],
+          "getLatestValueWithTs": false
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": null,
+          "layoutX": 619,
+          "layoutY": 947
+        },
+        "type": "org.thingsboard.rule.engine.metadata.TbGetAttributesNode",
+        "name": "0xb2 RH Threshold",
+        "debugMode": false,
+        "configuration": {
+          "tellFailureIfAbsent": true,
+          "clientAttributeNames": [],
+          "sharedAttributeNames": [],
+          "serverAttributeNames": [
+            "b2_up",
+            "b2_low",
+            "b2_hyst",
+            "b2_flag"
+          ],
+          "latestTsKeyNames": [],
+          "getLatestValueWithTs": false
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": "We are using GET method (Over SSL). Textlocal server is not accepting \"urlecoded\" POST body sent by Thingsboard.",
+          "layoutX": 2078,
+          "layoutY": 139
+        },
+        "type": "org.thingsboard.rule.engine.transform.TbTransformMsgNode",
+        "name": "temp sms metadata",
+        "debugMode": true,
+        "configuration": {
+          "jsScript": "metadata.val = msg.details.temperature;\n\nvar dateObj = new Date();\ndateObj = dateObj.toString().slice(4, 24) + \" IST\";\n\nmetadata.sender = metadata.sendername;\nmetadata.apikey = metadata.smsapi;\nmetadata.numbers = metadata.mobiles;\nmetadata.message = \"Attention! Dear Customer, Device \" + msg.details.mac + \" from \" + metadata.deviceName + \" reporting high \" + msg.details.type + \",  \" + metadata.val + \" \" + msg.details.unit + \" - WiSense Dashboard (\" + dateObj + \")\";\n\n// var req_str = \"apikey=\"+apikey+\"&sender=\"+sender+\"&numbers=\"+numbers+\"&message=\"+message;\n\nif (msg.details.sts === true) {\n    return {msg: msg, metadata: metadata, msgType: msgType};\n}"
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": null,
+          "layoutX": 1210,
+          "layoutY": 451
+        },
+        "type": "org.thingsboard.rule.engine.filter.TbJsFilterNode",
+        "name": "Temp Threshold lower",
+        "debugMode": false,
+        "configuration": {
+          "jsScript": "return msg[\"0xb3\"] < metadata.ss_b3_low;"
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": null,
+          "layoutX": 919,
+          "layoutY": 322
+        },
+        "type": "org.thingsboard.rule.engine.filter.TbJsFilterNode",
+        "name": "Temp Field Exist Check",
+        "debugMode": false,
+        "configuration": {
+          "jsScript": "return msg[\"0xb3\"] !== undefined;"
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": null,
+          "layoutX": 622,
+          "layoutY": 322
+        },
+        "type": "org.thingsboard.rule.engine.metadata.TbGetAttributesNode",
+        "name": "0xb3 temp thresholds",
+        "debugMode": false,
+        "configuration": {
+          "tellFailureIfAbsent": true,
+          "clientAttributeNames": [],
+          "sharedAttributeNames": [],
+          "serverAttributeNames": [
+            "b3_up",
+            "b3_low",
+            "b3_hyst",
+            "b3_flag"
+          ],
+          "latestTsKeyNames": [],
+          "getLatestValueWithTs": false
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": null,
+          "layoutX": 2688,
+          "layoutY": 278
+        },
+        "type": "org.thingsboard.rule.engine.mail.TbMsgToEmailNode",
+        "name": "SendGrid",
+        "debugMode": false,
+        "configuration": {
+          "fromTemplate": "WiSense Alerts <alerts-no-reply@wisense.in>",
+          "toTemplate": "${emails}",
+          "ccTemplate": null,
+          "bccTemplate": null,
+          "subjectTemplate": "Alert Clear : Device ${mac} restored normal ${type}, ${val} ${unit}",
+          "bodyTemplate": "Dear Customer,\n\nDevice ${mac} from ${deviceName} restored normal ${type}, ${val} ${unit}\nNo immediate actions required.\nLogin to your dashboard at dashboard.wisense.in/login\nTime: ${timeNow} \n\nThanks,\nWiSense Technologies"
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": "We are using GET method (Over SSL). Textlocal server is not accepting \"urlecoded\" POST body sent by Thingsboard.",
+          "layoutX": 2383,
+          "layoutY": 1508
+        },
+        "type": "org.thingsboard.rule.engine.transform.TbTransformMsgNode",
+        "name": "VCC sms metadata",
+        "debugMode": false,
+        "configuration": {
+          "jsScript": "metadata.val = msg.details.battery;\n\nvar dateObj = new Date();\ndateObj = dateObj.toString().slice(4, 24) + \" IST\";\n\nmetadata.sender = metadata.sendername;\nmetadata.apikey = metadata.smsapi;\nmetadata.numbers = metadata.mobiles;\nmetadata.message = \"Alert Clear! Dear Customer, Device \" + msg.details.mac + \" from \" + metadata.deviceName + \" restored normal \" + msg.details.type + \"  voltage, \" + metadata.val + \" \" + msg.details.unit + \" - WiSense Dashboard (\" + dateObj + \")\"; \n\nif (msg.details.sts === true) {\n    return {msg: msg, metadata: metadata, msgType: msgType};\n}"
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": "",
+          "layoutX": 2680,
+          "layoutY": 1510
+        },
+        "type": "org.thingsboard.rule.engine.rest.TbRestApiCallNode",
+        "name": "textlocal",
+        "debugMode": true,
+        "configuration": {
+          "restEndpointUrlPattern": "https://api.textlocal.in/send/?sender=${sender}&apikey=${apikey}&numbers=${numbers}&message=${message}",
+          "requestMethod": "GET",
+          "useSimpleClientHttpFactory": true,
+          "readTimeoutMs": 0,
+          "maxParallelRequestsCount": 0,
+          "headers": {},
+          "useRedisQueueForMsgPersistence": false,
+          "trimQueue": false,
+          "maxQueueSize": 0
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": "We are using GET method (Over SSL). Textlocal server is not accepting \"urlecoded\" POST body sent by Thingsboard.",
+          "layoutX": 2384,
+          "layoutY": 843
+        },
+        "type": "org.thingsboard.rule.engine.transform.TbTransformMsgNode",
+        "name": "RH sms metadata",
+        "debugMode": false,
+        "configuration": {
+          "jsScript": "metadata.val = msg.details.humidity;\n\nvar dateObj = new Date();\ndateObj = dateObj.toString().slice(4, 24) + \" IST\";\n\nmetadata.sender = metadata.sendername;\nmetadata.apikey = metadata.smsapi;\nmetadata.numbers = metadata.mobiles;\nmetadata.message = \"Alert Clear! Dear Customer, Device \" + msg.details.mac + \" from \" + metadata.deviceName + \" restored normal \" + msg.details.type + \",  \" + metadata.val + \" \" + msg.details.unit + \" - WiSense Dashboard (\" + dateObj + \")\";\n\nif (msg.details.sts === true) {\n    return {msg: msg, metadata: metadata, msgType: msgType};\n}"
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": "",
+          "layoutX": 2683,
+          "layoutY": 842
+        },
+        "type": "org.thingsboard.rule.engine.rest.TbRestApiCallNode",
+        "name": "textlocal",
+        "debugMode": false,
+        "configuration": {
+          "restEndpointUrlPattern": "https://api.textlocal.in/send/?sender=${sender}&apikey=${apikey}&numbers=${numbers}&message=${message}",
+          "requestMethod": "GET",
+          "useSimpleClientHttpFactory": true,
+          "readTimeoutMs": 0,
+          "maxParallelRequestsCount": 0,
+          "headers": {},
+          "useRedisQueueForMsgPersistence": false,
+          "trimQueue": false,
+          "maxQueueSize": 0
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": "We are using GET method (Over SSL). Textlocal server is not accepting \"urlecoded\" POST body sent by Thingsboard.",
+          "layoutX": 2380,
+          "layoutY": 1116
+        },
+        "type": "org.thingsboard.rule.engine.transform.TbTransformMsgNode",
+        "name": "RH sms metadata",
+        "debugMode": false,
+        "configuration": {
+          "jsScript": "metadata.val = msg.details.humidity;\n\nvar dateObj = new Date();\ndateObj = dateObj.toString().slice(4, 24) + \" IST\";\n\nmetadata.sender = metadata.sendername;\nmetadata.apikey = metadata.smsapi;\nmetadata.numbers = metadata.mobiles;\nmetadata.message = \"Alert Clear! Dear Customer, Device \" + msg.details.mac + \" from \" + metadata.deviceName + \" restored normal \" + msg.details.type + \",  \" + metadata.val + \" \" + msg.details.unit + \" - WiSense Dashboard (\" + dateObj + \")\";\n\n\nif (msg.details.sts === true) {\n    return {msg: msg, metadata: metadata, msgType: msgType};\n}"
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": "",
+          "layoutX": 2679,
+          "layoutY": 1115
+        },
+        "type": "org.thingsboard.rule.engine.rest.TbRestApiCallNode",
+        "name": "textlocal",
+        "debugMode": false,
+        "configuration": {
+          "restEndpointUrlPattern": "https://api.textlocal.in/send/?sender=${sender}&apikey=${apikey}&numbers=${numbers}&message=${message}",
+          "requestMethod": "GET",
+          "useSimpleClientHttpFactory": true,
+          "readTimeoutMs": 0,
+          "maxParallelRequestsCount": 0,
+          "headers": {},
+          "useRedisQueueForMsgPersistence": false,
+          "trimQueue": false,
+          "maxQueueSize": 0
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": "",
+          "layoutX": 2079,
+          "layoutY": 1117
+        },
+        "type": "org.thingsboard.rule.engine.metadata.TbGetCustomerAttributeNode",
+        "name": "mob. numbers",
+        "debugMode": false,
+        "configuration": {
+          "telemetry": false,
+          "attrMapping": {
+            "mobiles": "mobiles"
+          }
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": "We are using GET method (Over SSL). Textlocal server is not accepting \"urlecoded\" POST body sent by Thingsboard.",
+          "layoutX": 2079,
+          "layoutY": 1042
+        },
+        "type": "org.thingsboard.rule.engine.transform.TbTransformMsgNode",
+        "name": "RH sms metadata",
+        "debugMode": false,
+        "configuration": {
+          "jsScript": "metadata.val = msg.details.humidity;\n\nvar dateObj = new Date();\ndateObj = dateObj.toString().slice(4, 24) + \" IST\";\n\nmetadata.sender = metadata.sendername;\nmetadata.apikey = metadata.smsapi;\nmetadata.numbers = metadata.mobiles;\nmetadata.message = \"Attention! Dear Customer, Device \" + msg.details.mac + \" from \" + metadata.deviceName + \" reporting low \" + msg.details.type + \", \" + metadata.val + \" \" + msg.details.unit + \" - WiSense Dashboard (\" + dateObj + \")\";\n\nif (msg.details.sts === true) {\n    return {msg: msg, metadata: metadata, msgType: msgType};\n}"
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": "",
+          "layoutX": 2378,
+          "layoutY": 1041
+        },
+        "type": "org.thingsboard.rule.engine.rest.TbRestApiCallNode",
+        "name": "textlocal",
+        "debugMode": false,
+        "configuration": {
+          "restEndpointUrlPattern": "https://api.textlocal.in/send/?sender=${sender}&apikey=${apikey}&numbers=${numbers}&message=${message}",
+          "requestMethod": "GET",
+          "useSimpleClientHttpFactory": true,
+          "readTimeoutMs": 0,
+          "maxParallelRequestsCount": 0,
+          "headers": {},
+          "useRedisQueueForMsgPersistence": false,
+          "trimQueue": false,
+          "maxQueueSize": 0
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": "",
+          "layoutX": 2380,
+          "layoutY": 1574
+        },
+        "type": "org.thingsboard.rule.engine.metadata.TbGetCustomerAttributeNode",
+        "name": "email ids",
+        "debugMode": false,
+        "configuration": {
+          "telemetry": false,
+          "attrMapping": {
+            "emails": "emails"
+          }
+        }
+      },
+      {
+        "additionalInfo": {
+          "layoutX": 2682,
+          "layoutY": 983
+        },
+        "type": "org.thingsboard.rule.engine.mail.TbSendEmailNode",
+        "name": "alerts",
+        "debugMode": false,
+        "configuration": {
+          "useSystemSmtpSettings": true,
+          "smtpHost": "localhost",
+          "smtpPort": 25,
+          "username": null,
+          "password": null,
+          "smtpProtocol": "smtp",
+          "timeout": 10000,
+          "enableTls": false,
+          "tlsVersion": "TLSv1.2"
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": null,
+          "layoutX": 1780,
+          "layoutY": 982
+        },
+        "type": "org.thingsboard.rule.engine.transform.TbTransformMsgNode",
+        "name": "RH email metadata",
+        "debugMode": false,
+        "configuration": {
+          "jsScript": "if (msg.details.sts === true) {\n    \n    var dateObj = new Date();\n    dateObj = dateObj.toString().slice(4, 24);\n    metadata.timeNow = dateObj + \" IST\";\n    metadata.val = msg.details.humidity;\n    metadata.mac = msg.details.mac;\n    metadata.type = msg.details.type;\n    metadata.unit = msg.details.unit;\n    \n    return {msg: msg.details, metadata: metadata, msgType: msgType};\n    \n}"
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": null,
+          "layoutX": 1780,
+          "layoutY": 1171
+        },
+        "type": "org.thingsboard.rule.engine.action.TbClearAlarmNode",
+        "name": "Clear Alarm",
+        "debugMode": false,
+        "configuration": {
+          "alarmDetailsBuildJs": "var details = {};\r\n\r\ndetails.humidity = msg[\"0xb2\"];\r\ndetails.mac = msg.MacId;\r\ndetails.type = \"humidity\";\r\ndetails.clearedHumidity = msg[\"0xb2\"];\r\ndetails.unit = \"%\";\r\ndetails.sts = false;\r\n\r\nif (metadata.ss_b2_flag === \"true\") { //attributes are read as strings\r\n    details.sts = true;\r\n}\r\n\r\nreturn details;\r\n\r\n/*\r\nNote:\r\n'details.sts' is not a thingsboard native variable.\r\nIf 'true', then mail/sms action will be completed. \r\nOtherwise mail/sms will not be sent eventhough continuous \r\nalarms are created.\r\n*/\r\n\r\n\r\n",
+          "alarmType": "Low Humidity"
+        }
+      },
+      {
+        "additionalInfo": {
+          "layoutX": 2982,
+          "layoutY": 274
+        },
+        "type": "org.thingsboard.rule.engine.mail.TbSendEmailNode",
+        "name": "alerts",
+        "debugMode": false,
+        "configuration": {
+          "useSystemSmtpSettings": true,
+          "smtpHost": "localhost",
+          "smtpPort": 25,
+          "username": null,
+          "password": null,
+          "smtpProtocol": "smtp",
+          "timeout": 10000,
+          "enableTls": false,
+          "tlsVersion": "TLSv1.2"
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": null,
+          "layoutX": 2077,
+          "layoutY": 278
+        },
+        "type": "org.thingsboard.rule.engine.transform.TbTransformMsgNode",
+        "name": "temp email metadata",
+        "debugMode": false,
+        "configuration": {
+          "jsScript": "if (msg.details.sts === true) {\n    \n    var dateObj = new Date();\n    dateObj = dateObj.toString().slice(4, 24);\n    metadata.timeNow = dateObj + \" IST\";\n    metadata.val = msg.details.temperature;\n    metadata.mac = msg.details.mac;\n    metadata.type = msg.details.type;\n    metadata.unit = msg.details.unit;\n    \n    return {msg: msg.details, metadata: metadata, msgType: msgType};\n    \n}"
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": null,
+          "layoutX": 2379,
+          "layoutY": 82
+        },
+        "type": "org.thingsboard.rule.engine.mail.TbMsgToEmailNode",
+        "name": "SendGrid",
+        "debugMode": false,
+        "configuration": {
+          "fromTemplate": "WiSense Alerts <alerts-no-reply@wisense.in>",
+          "toTemplate": "${emails}",
+          "ccTemplate": null,
+          "bccTemplate": null,
+          "subjectTemplate": "Attention : Device ${mac} reporting high ${type}, ${val} ${unit}",
+          "bodyTemplate": "Dear Customer,\n\nDevice ${mac} from ${deviceName} reporting high ${type}, ${val}  ${unit}\nPlease take necessary actions.\nLogin to your dashboard at dashboard.wisense.in/login\nTime: ${timeNow}\n\nThanks,\nWiSense Technologies"
+        }
+      },
+      {
+        "additionalInfo": {
+          "layoutX": 2687,
+          "layoutY": 83
+        },
+        "type": "org.thingsboard.rule.engine.mail.TbSendEmailNode",
+        "name": "alerts",
+        "debugMode": false,
+        "configuration": {
+          "useSystemSmtpSettings": true,
+          "smtpHost": "localhost",
+          "smtpPort": 25,
+          "username": null,
+          "password": null,
+          "smtpProtocol": "smtp",
+          "timeout": 10000,
+          "enableTls": false,
+          "tlsVersion": "TLSv1.2"
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": null,
+          "layoutX": 1774,
+          "layoutY": 81
+        },
+        "type": "org.thingsboard.rule.engine.transform.TbTransformMsgNode",
+        "name": "temp email metadata",
+        "debugMode": false,
+        "configuration": {
+          "jsScript": "if (msg.details.sts === true) {\n    \n    var dateObj = new Date();\n    dateObj = dateObj.toString().slice(4, 24);\n    metadata.timeNow = dateObj + \" IST\";\n    metadata.val = msg.details.temperature;\n    metadata.mac = msg.details.mac;\n    metadata.type = msg.details.type;\n    metadata.unit = msg.details.unit;\n    \n    return {msg: msg.details, metadata: metadata, msgType: msgType};\n    \n}"
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": null,
+          "layoutX": 259,
+          "layoutY": 322
+        },
+        "type": "org.thingsboard.rule.engine.filter.TbMsgTypeSwitchNode",
+        "name": "Message Type Switch",
+        "debugMode": true,
+        "configuration": {
+          "version": 0
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": null,
+          "layoutX": 399,
+          "layoutY": 67
+        },
+        "type": "org.thingsboard.rule.engine.telemetry.TbMsgAttributesNode",
+        "name": "Save Client Attributes",
+        "debugMode": true,
+        "configuration": {
+          "scope": "CLIENT_SCOPE"
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": null,
+          "layoutX": 1775,
+          "layoutY": 275
+        },
+        "type": "org.thingsboard.rule.engine.action.TbClearAlarmNode",
+        "name": "Clear Alarm",
+        "debugMode": false,
+        "configuration": {
+          "alarmDetailsBuildJs": "var details = {};\r\n\r\ndetails.temperature = msg[\"0xb3\"];\r\ndetails.mac = msg.MacId;\r\ndetails.type = \"temperature\";\r\ndetails.clearedTemperature = msg[\"0xb3\"];\r\ndetails.unit = \"deg C\";\r\ndetails.sts = false;\r\n\r\nif (metadata.ss_b3_flag === \"true\") { //attributes are read as strings\r\n    details.sts = true;\r\n}\r\n\r\nreturn details;\r\n\r\n/*\r\nNote:\r\n'details.sts' is not a thingsboard native variable.\r\nIf 'true', then mail/sms action will be completed. \r\nOtherwise mail/sms will not be sent eventhough continuous \r\nalarm condition exist.\r\n*/\r\n\r\n\r\n",
+          "alarmType": "High Temperature"
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": null,
+          "layoutX": 1479,
+          "layoutY": 81
+        },
+        "type": "org.thingsboard.rule.engine.action.TbCreateAlarmNode",
+        "name": "Create Alarm",
+        "debugMode": true,
+        "configuration": {
+          "alarmDetailsBuildJs": "var details = {};\r\n\r\ndetails.temperature = msg[\"0xb3\"];\r\ndetails.mac = msg.MacId;\r\ndetails.type = \"temperature\";\r\ndetails.sts = false; //Flag for sending sms/email.\r\ndetails.unit = \"deg C\";\r\n\r\nif (metadata.ss_b3_flag === \"true\") { //attributes are read as strings\r\n    details.sts = true; \r\n}\r\n\r\nreturn details;\r\n\r\n/*\r\nNote:\r\n'details.sts' is not a thingsboard native variable.\r\nIf 'true', then mail/sms action will be completed. \r\nOtherwise mail/sms will not be sent eventhough continuous \r\nalarm condition exist.\r\n*/\r\n",
+          "useMessageAlarmData": false,
+          "alarmType": "High Temperature",
+          "severity": "WARNING",
+          "propagate": false,
+          "relationTypes": []
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": null,
+          "layoutX": 944,
+          "layoutY": 1473
+        },
+        "type": "org.thingsboard.rule.engine.filter.TbJsFilterNode",
+        "name": "VCC Field Exist Check",
+        "debugMode": false,
+        "configuration": {
+          "jsScript": "return msg[\"0x78\"] !== undefined;"
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": null,
+          "layoutX": 1208,
+          "layoutY": 185
+        },
+        "type": "org.thingsboard.rule.engine.filter.TbJsFilterNode",
+        "name": "Temp Threshold Upper",
+        "debugMode": false,
+        "configuration": {
+          "jsScript": "return msg[\"0xb3\"] > metadata.ss_b3_up;"
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": "",
+          "layoutX": 2378,
+          "layoutY": 136
+        },
+        "type": "org.thingsboard.rule.engine.rest.TbRestApiCallNode",
+        "name": "textlocal",
+        "debugMode": true,
+        "configuration": {
+          "restEndpointUrlPattern": "https://api.textlocal.in/send/?sender=${sender}&apikey=${apikey}&numbers=${numbers}&message=${message}",
+          "requestMethod": "GET",
+          "useSimpleClientHttpFactory": true,
+          "readTimeoutMs": 0,
+          "maxParallelRequestsCount": 0,
+          "headers": {},
+          "useRedisQueueForMsgPersistence": false,
+          "trimQueue": false,
+          "maxQueueSize": 0
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": null,
+          "layoutX": 1502,
+          "layoutY": 1574
+        },
+        "type": "org.thingsboard.rule.engine.filter.TbJsFilterNode",
+        "name": "Hysteresis check (VCC low )",
+        "debugMode": false,
+        "configuration": {
+          "jsScript": "return msg[\"0x78\"] > (Number(metadata.ss_78_low) + Number(metadata.ss_78_hyst));"
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": "We are using GET method (Over SSL). Textlocal server is not accepting \"urlecoded\" POST body sent by Thingsboard.",
+          "layoutX": 2081,
+          "layoutY": 1442
+        },
+        "type": "org.thingsboard.rule.engine.transform.TbTransformMsgNode",
+        "name": "VCC sms metadata",
+        "debugMode": false,
+        "configuration": {
+          "jsScript": "metadata.val = msg.details.battery;\n\nvar dateObj = new Date();\ndateObj = dateObj.toString().slice(4, 24) + \" IST\";\n\nmetadata.sender = metadata.sendername;\nmetadata.apikey = metadata.smsapi;\nmetadata.numbers = metadata.mobiles;\nmetadata.message = \"Attention! Dear Customer, Device \" + msg.details.mac + \" from \" + metadata.deviceName + \" reporting low \" + msg.details.type + \", \" + metadata.val + \" \" + msg.details.unit + \" - WiSense Dashboard (\" + dateObj + \")\";\n\nif (msg.details.sts === true) {\n    return {msg: msg, metadata: metadata, msgType: msgType};\n}"
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": null,
+          "layoutX": 2679,
+          "layoutY": 1571
+        },
+        "type": "org.thingsboard.rule.engine.mail.TbMsgToEmailNode",
+        "name": "SendGrid",
+        "debugMode": false,
+        "configuration": {
+          "fromTemplate": "WiSense Alerts <alerts-no-reply@wisense.in>",
+          "toTemplate": "${emails}",
+          "ccTemplate": null,
+          "bccTemplate": null,
+          "subjectTemplate": "Alert Clear : Device ${mac} restored normal ${type}, ${val} ${unit}",
+          "bodyTemplate": "Dear Customer,\n\nDevice ${mac} from ${deviceName} restored normal ${type}, ${val} ${unit}\nNo immediate actions required.\nLogin to your dashboard at dashboard.wisense.in/login\nTime: ${timeNow} \n\nThanks,\nWiSense Technologies"
+        }
+      },
+      {
+        "additionalInfo": {
+          "layoutX": 2992,
+          "layoutY": 1575
+        },
+        "type": "org.thingsboard.rule.engine.mail.TbSendEmailNode",
+        "name": "alerts",
+        "debugMode": false,
+        "configuration": {
+          "useSystemSmtpSettings": true,
+          "smtpHost": "localhost",
+          "smtpPort": 25,
+          "username": null,
+          "password": null,
+          "smtpProtocol": "smtp",
+          "timeout": 10000,
+          "enableTls": false,
+          "tlsVersion": "TLSv1.2"
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": null,
+          "layoutX": 2084,
+          "layoutY": 1572
+        },
+        "type": "org.thingsboard.rule.engine.transform.TbTransformMsgNode",
+        "name": "VCC email metadata",
+        "debugMode": false,
+        "configuration": {
+          "jsScript": "if (msg.details.sts === true) {\n    \n    var dateObj = new Date();\n    dateObj = dateObj.toString().slice(4, 24);\n    metadata.timeNow = dateObj + \" IST\";\n    metadata.val = msg.details.battery;\n    metadata.mac = msg.details.mac;\n    metadata.type = msg.details.type;\n    metadata.unit = msg.details.unit;\n    \n    return {msg: msg.details, metadata: metadata, msgType: msgType};\n    \n}"
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": null,
+          "layoutX": 2375,
+          "layoutY": 1382
+        },
+        "type": "org.thingsboard.rule.engine.mail.TbMsgToEmailNode",
+        "name": "SendGrid",
+        "debugMode": false,
+        "configuration": {
+          "fromTemplate": "WiSense Alerts <alerts-no-reply@wisense.in>",
+          "toTemplate": "${emails}",
+          "ccTemplate": null,
+          "bccTemplate": null,
+          "subjectTemplate": "Attention : Device ${mac} reporting low ${type}, ${val} ${unit}",
+          "bodyTemplate": "Dear Customer,\n\nDevice ${mac} from ${deviceName} reporting low ${type}, ${val}  ${unit}\nPlease take necessary actions.\nLogin to your dashboard at dashboard.wisense.in/login\nTime: ${timeNow}\n\nThanks,\nWiSense Technologies"
+        }
+      },
+      {
+        "additionalInfo": {
+          "layoutX": 2678,
+          "layoutY": 1381
+        },
+        "type": "org.thingsboard.rule.engine.mail.TbSendEmailNode",
+        "name": "alerts",
+        "debugMode": false,
+        "configuration": {
+          "useSystemSmtpSettings": true,
+          "smtpHost": "localhost",
+          "smtpPort": 25,
+          "username": null,
+          "password": null,
+          "smtpProtocol": "smtp",
+          "timeout": 10000,
+          "enableTls": false,
+          "tlsVersion": "TLSv1.2"
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": null,
+          "layoutX": 1777,
+          "layoutY": 1383
+        },
+        "type": "org.thingsboard.rule.engine.transform.TbTransformMsgNode",
+        "name": "VCC email metadata",
+        "debugMode": false,
+        "configuration": {
+          "jsScript": "if (msg.details.sts === true) {\n    \n    var dateObj = new Date();\n    dateObj = dateObj.toString().slice(4, 24);\n    metadata.timeNow = dateObj + \" IST\";\n    metadata.val = msg.details.battery;\n    metadata.mac = msg.details.mac;\n    metadata.type = msg.details.type;\n    metadata.unit = msg.details.unit;\n    \n    return {msg: msg.details, metadata: metadata, msgType: msgType};\n    \n}"
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": null,
+          "layoutX": 1504,
+          "layoutY": 1381
+        },
+        "type": "org.thingsboard.rule.engine.action.TbCreateAlarmNode",
+        "name": "Create Alarm",
+        "debugMode": false,
+        "configuration": {
+          "alarmDetailsBuildJs": "var details = {};\r\n\r\ndetails.battery = msg[\"0x78\"];\r\ndetails.mac = msg.MacId;\r\ndetails.type = \"battery\";\r\ndetails.sts = false;\r\ndetails.unit = \"V\";\r\n\r\nif (metadata.ss_78_flag === \"true\") { //attributes are read as strings\r\n    details.sts = true; \r\n}\r\n\r\nreturn details;\r\n\r\n\r\n/*\r\nNote:\r\n'details.sts' is not a thingsboard native variable.\r\nIf 'true', then mail/sms action will be completed. \r\nOtherwise mail/sms will not be sent eventhough continuous \r\nalarms are updated.\r\n*/\r\n",
+          "useMessageAlarmData": false,
+          "alarmType": "Low Battery",
+          "severity": "WARNING",
+          "propagate": false,
+          "relationTypes": []
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": "",
+          "layoutX": 2375,
+          "layoutY": 1443
+        },
+        "type": "org.thingsboard.rule.engine.rest.TbRestApiCallNode",
+        "name": "textlocal",
+        "debugMode": false,
+        "configuration": {
+          "restEndpointUrlPattern": "https://api.textlocal.in/send/?sender=${sender}&apikey=${apikey}&numbers=${numbers}&message=${message}",
+          "requestMethod": "GET",
+          "useSimpleClientHttpFactory": true,
+          "readTimeoutMs": 0,
+          "maxParallelRequestsCount": 0,
+          "headers": {},
+          "useRedisQueueForMsgPersistence": false,
+          "trimQueue": false,
+          "maxQueueSize": 0
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": null,
+          "layoutX": 1229,
+          "layoutY": 1473
+        },
+        "type": "org.thingsboard.rule.engine.filter.TbJsFilterNode",
+        "name": "VCC Threshold lower",
+        "debugMode": false,
+        "configuration": {
+          "jsScript": "return msg[\"0x78\"] < metadata.ss_78_low;"
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": null,
+          "layoutX": 499,
+          "layoutY": 157
+        },
+        "type": "org.thingsboard.rule.engine.telemetry.TbMsgTimeseriesNode",
+        "name": "Save Timeseries",
+        "debugMode": true,
+        "configuration": {
+          "defaultTTL": 0
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": null,
+          "layoutX": 1492,
+          "layoutY": 1172
+        },
+        "type": "org.thingsboard.rule.engine.filter.TbJsFilterNode",
+        "name": "Hysteresis check (RH low )",
+        "debugMode": false,
+        "configuration": {
+          "jsScript": "return (msg[\"0xb2\"] > (Number(metadata.ss_b2_low) + Number(metadata.ss_b2_hyst))) && (msg[\"0xb2\"] < metadata.ss_b2_up);"
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": "We are using GET method (Over SSL). Textlocal server is not accepting \"urlecoded\" POST body sent by Thingsboard.",
+          "layoutX": 2378,
+          "layoutY": 221
+        },
+        "type": "org.thingsboard.rule.engine.transform.TbTransformMsgNode",
+        "name": "temp sms metadata",
+        "debugMode": true,
+        "configuration": {
+          "jsScript": "metadata.val = msg.details.temperature;\n\nvar dateObj = new Date();\ndateObj = dateObj.toString().slice(4, 24) + \" IST\";\n\nmetadata.sender = metadata.sendername;\nmetadata.apikey = metadata.smsapi;\nmetadata.numbers = metadata.mobiles;\nmetadata.message = \"Alert Clear! Dear Customer, Device \" + msg.details.mac + \" from \" + metadata.deviceName + \" restored normal \" + msg.details.type + \",  \" + metadata.val + \" \" + msg.details.unit + \" - WiSense Dashboard (\" + dateObj + \")\";\n\nif (msg.details.sts === true) {\n    return {msg: msg, metadata: metadata, msgType: msgType};\n}"
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": "",
+          "layoutX": 2689,
+          "layoutY": 222
+        },
+        "type": "org.thingsboard.rule.engine.rest.TbRestApiCallNode",
+        "name": "textlocal",
+        "debugMode": true,
+        "configuration": {
+          "restEndpointUrlPattern": "https://api.textlocal.in/send/?sender=${sender}&apikey=${apikey}&numbers=${numbers}&message=${message}",
+          "requestMethod": "GET",
+          "useSimpleClientHttpFactory": true,
+          "readTimeoutMs": 0,
+          "maxParallelRequestsCount": 0,
+          "headers": {},
+          "useRedisQueueForMsgPersistence": false,
+          "trimQueue": false,
+          "maxQueueSize": 0
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": "We are using GET method (Over SSL). Textlocal server is not accepting \"urlecoded\" POST body sent by Thingsboard.",
+          "layoutX": 2380,
+          "layoutY": 486
+        },
+        "type": "org.thingsboard.rule.engine.transform.TbTransformMsgNode",
+        "name": "temp sms metadata",
+        "debugMode": false,
+        "configuration": {
+          "jsScript": "metadata.val = msg.details.temperature;\n\nvar dateObj = new Date();\ndateObj = dateObj.toString().slice(4, 24) + \" IST\";\n\nmetadata.sender = metadata.sendername;\nmetadata.apikey = metadata.smsapi;\nmetadata.numbers = metadata.mobiles;\nmetadata.message = \"Alert Clear! Dear Customer, Device \" + msg.details.mac + \" from \" + metadata.deviceName + \" restored normal \" + msg.details.type + \",  \" + metadata.val + \" \" + msg.details.unit + \" - WiSense Dashboard (\" + dateObj + \")\";\n\nif (msg.details.sts === true) {\n    return {msg: msg, metadata: metadata, msgType: msgType};\n}"
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": "",
+          "layoutX": 2684,
+          "layoutY": 487
+        },
+        "type": "org.thingsboard.rule.engine.rest.TbRestApiCallNode",
+        "name": "textlocal",
+        "debugMode": false,
+        "configuration": {
+          "restEndpointUrlPattern": "https://api.textlocal.in/send/?sender=${sender}&apikey=${apikey}&numbers=${numbers}&message=${message}",
+          "requestMethod": "GET",
+          "useSimpleClientHttpFactory": true,
+          "readTimeoutMs": 0,
+          "maxParallelRequestsCount": 0,
+          "headers": {},
+          "useRedisQueueForMsgPersistence": false,
+          "trimQueue": false,
+          "maxQueueSize": 0
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": "",
+          "layoutX": 2078,
+          "layoutY": 984
+        },
+        "type": "org.thingsboard.rule.engine.metadata.TbGetCustomerAttributeNode",
+        "name": "email ids",
+        "debugMode": false,
+        "configuration": {
+          "telemetry": false,
+          "attrMapping": {
+            "emails": "emails"
+          }
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": "",
+          "layoutX": 2375,
+          "layoutY": 1171
+        },
+        "type": "org.thingsboard.rule.engine.metadata.TbGetCustomerAttributeNode",
+        "name": "email ids",
+        "debugMode": false,
+        "configuration": {
+          "telemetry": false,
+          "attrMapping": {
+            "emails": "emails"
+          }
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": "",
+          "layoutX": 2080,
+          "layoutY": 1382
+        },
+        "type": "org.thingsboard.rule.engine.metadata.TbGetCustomerAttributeNode",
+        "name": "email ids",
+        "debugMode": false,
+        "configuration": {
+          "telemetry": false,
+          "attrMapping": {
+            "emails": "emails"
+          }
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": null,
+          "layoutX": 2679,
+          "layoutY": 1171
+        },
+        "type": "org.thingsboard.rule.engine.mail.TbMsgToEmailNode",
+        "name": "SendGrid",
+        "debugMode": false,
+        "configuration": {
+          "fromTemplate": "WiSense Alerts <alerts-no-reply@wisense.in>",
+          "toTemplate": "${emails}",
+          "ccTemplate": null,
+          "bccTemplate": null,
+          "subjectTemplate": "Alert Clear : Device ${mac} restored normal ${type}, ${val} ${unit}",
+          "bodyTemplate": "Dear Customer,\n\nDevice ${mac} from ${deviceName} restored normal ${type}, ${val} ${unit}\nNo immediate actions required.\nLogin to your dashboard at dashboard.wisense.in/login\nTime: ${timeNow} \n\nThanks,\nWiSense Technologies"
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": null,
+          "layoutX": 2379,
+          "layoutY": 984
+        },
+        "type": "org.thingsboard.rule.engine.mail.TbMsgToEmailNode",
+        "name": "SendGrid",
+        "debugMode": false,
+        "configuration": {
+          "fromTemplate": "WiSense Alerts <alerts-no-reply@wisense.in>",
+          "toTemplate": "${emails}",
+          "ccTemplate": null,
+          "bccTemplate": null,
+          "subjectTemplate": "Attention : Device ${mac} reporting low ${type}, ${val} ${unit}",
+          "bodyTemplate": "Dear Customer,\n\nDevice ${mac} from ${deviceName} reporting low ${type}, ${val}  ${unit}\nPlease take necessary actions.\nLogin to your dashboard at dashboard.wisense.in/login\nTime: ${timeNow}\n\nThanks,\nWiSense Technologies"
+        }
+      },
+      {
+        "additionalInfo": {
+          "layoutX": 2982,
+          "layoutY": 1173
+        },
+        "type": "org.thingsboard.rule.engine.mail.TbSendEmailNode",
+        "name": "alerts",
+        "debugMode": false,
+        "configuration": {
+          "useSystemSmtpSettings": true,
+          "smtpHost": "localhost",
+          "smtpPort": 25,
+          "username": null,
+          "password": null,
+          "smtpProtocol": "smtp",
+          "timeout": 10000,
+          "enableTls": false,
+          "tlsVersion": "TLSv1.2"
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": null,
+          "layoutX": 2083,
+          "layoutY": 1173
+        },
+        "type": "org.thingsboard.rule.engine.transform.TbTransformMsgNode",
+        "name": "RH email metadata",
+        "debugMode": false,
+        "configuration": {
+          "jsScript": "if (msg.details.sts === true) {\n    \n    var dateObj = new Date();\n    dateObj = dateObj.toString().slice(4, 24);\n    metadata.timeNow = dateObj + \" IST\";\n    metadata.val = msg.details.humidity;\n    metadata.mac = msg.details.mac;\n    metadata.type = msg.details.type;\n    metadata.unit = msg.details.unit;\n    \n    return {msg: msg.details, metadata: metadata, msgType: msgType};\n    \n}"
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": null,
+          "layoutX": 1494,
+          "layoutY": 982
+        },
+        "type": "org.thingsboard.rule.engine.action.TbCreateAlarmNode",
+        "name": "Create Alarm",
+        "debugMode": false,
+        "configuration": {
+          "alarmDetailsBuildJs": "var details = {};\r\n\r\ndetails.humidity = msg[\"0xb2\"];\r\ndetails.mac = msg.MacId;\r\ndetails.type = \"humidity\";\r\ndetails.sts = false;\r\ndetails.unit = \"%\";\r\n\r\nif (metadata.ss_b2_flag === \"true\") { //attributes are read as strings\r\n    details.sts = true; \r\n}\r\n\r\nreturn details;\r\n\r\n\r\n/*\r\nNote:\r\n'details.sts' is not a thingsboard native variable.\r\nIf 'true', then mail/sms action will be completed. \r\nOtherwise mail/sms will not be sent eventhough continuous \r\nalarms are updated.\r\n*/\r\n",
+          "useMessageAlarmData": false,
+          "alarmType": "Low Humidity",
+          "severity": "WARNING",
+          "propagate": false,
+          "relationTypes": []
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": null,
+          "layoutX": 1486,
+          "layoutY": 903
+        },
+        "type": "org.thingsboard.rule.engine.filter.TbJsFilterNode",
+        "name": "Hysteresis check (RH upper )",
+        "debugMode": false,
+        "configuration": {
+          "jsScript": "return (msg[\"0xb2\"] < (Number(metadata.ss_b2_up) - Number(metadata.ss_b2_hyst))) && (msg[\"0xb2\"] > metadata.ss_b2_low);"
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": "We are using GET method (Over SSL). Textlocal server is not accepting \"urlecoded\" POST body sent by Thingsboard.",
+          "layoutX": 2079,
+          "layoutY": 762
+        },
+        "type": "org.thingsboard.rule.engine.transform.TbTransformMsgNode",
+        "name": "RH sms metadata",
+        "debugMode": true,
+        "configuration": {
+          "jsScript": "metadata.val = msg.details.humidity;\n\nvar dateObj = new Date();\ndateObj = dateObj.toString().slice(4, 24) + \" IST\";\n\nmetadata.sender = metadata.sendername;\nmetadata.apikey = metadata.smsapi;\nmetadata.numbers = metadata.mobiles;\nmetadata.message = \"Attention! Dear Customer, Device \" + msg.details.mac + \" from \" + metadata.deviceName + \" reporting high \" + msg.details.type + \",  \" + metadata.val + \" \" + msg.details.unit + \" - WiSense Dashboard (\" + dateObj + \")\";\n\nif (msg.details.sts === true) {\n    return {msg: msg, metadata: metadata, msgType: msgType};\n}"
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": null,
+          "layoutX": 1219,
+          "layoutY": 1074
+        },
+        "type": "org.thingsboard.rule.engine.filter.TbJsFilterNode",
+        "name": "RH Threshold lower",
+        "debugMode": false,
+        "configuration": {
+          "jsScript": "return msg[\"0xb2\"] < metadata.ss_b2_low;"
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": null,
+          "layoutX": 928,
+          "layoutY": 945
+        },
+        "type": "org.thingsboard.rule.engine.filter.TbJsFilterNode",
+        "name": "RH Field Exist Check",
+        "debugMode": false,
+        "configuration": {
+          "jsScript": "return msg[\"0xb2\"] !== undefined;"
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": null,
+          "layoutX": 2680,
+          "layoutY": 900
+        },
+        "type": "org.thingsboard.rule.engine.mail.TbMsgToEmailNode",
+        "name": "SendGrid",
+        "debugMode": false,
+        "configuration": {
+          "fromTemplate": "WiSense Alerts <alerts-no-reply@wisense.in>",
+          "toTemplate": "${emails}",
+          "ccTemplate": null,
+          "bccTemplate": null,
+          "subjectTemplate": "Alert Clear : Device ${mac} restored normal ${type}, ${val} ${unit}",
+          "bodyTemplate": "Dear Customer,\n\nDevice ${mac} from ${deviceName} restored normal ${type}, ${val} ${unit}\nNo immediate actions required.\nLogin to your dashboard at dashboard.wisense.in/login\nTime: ${timeNow} \n\nThanks,\nWiSense Technologies"
+        }
+      },
+      {
+        "additionalInfo": {
+          "layoutX": 2984,
+          "layoutY": 897
+        },
+        "type": "org.thingsboard.rule.engine.mail.TbSendEmailNode",
+        "name": "alerts",
+        "debugMode": false,
+        "configuration": {
+          "useSystemSmtpSettings": true,
+          "smtpHost": "localhost",
+          "smtpPort": 25,
+          "username": null,
+          "password": null,
+          "smtpProtocol": "smtp",
+          "timeout": 10000,
+          "enableTls": false,
+          "tlsVersion": "TLSv1.2"
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": null,
+          "layoutX": 2081,
+          "layoutY": 902
+        },
+        "type": "org.thingsboard.rule.engine.transform.TbTransformMsgNode",
+        "name": "RH email metadata",
+        "debugMode": false,
+        "configuration": {
+          "jsScript": "if (msg.details.sts === true) {\n    \n    var dateObj = new Date();\n    dateObj = dateObj.toString().slice(4, 24);\n    metadata.timeNow = dateObj + \" IST\";\n    metadata.val = msg.details.humidity;\n    metadata.mac = msg.details.mac;\n    metadata.type = msg.details.type;\n    metadata.unit = msg.details.unit;\n    \n    return {msg: msg.details, metadata: metadata, msgType: msgType};\n    \n}"
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": null,
+          "layoutX": 2379,
+          "layoutY": 702
+        },
+        "type": "org.thingsboard.rule.engine.mail.TbMsgToEmailNode",
+        "name": "SendGrid",
+        "debugMode": false,
+        "configuration": {
+          "fromTemplate": "WiSense Alerts <alerts-no-reply@wisense.in>",
+          "toTemplate": "${emails}",
+          "ccTemplate": null,
+          "bccTemplate": null,
+          "subjectTemplate": "Attention : Device ${mac} reporting high ${type}, ${val} ${unit}",
+          "bodyTemplate": "Dear Customer,\n\nDevice ${mac} from ${deviceName} reporting high ${type}, ${val}  ${unit}\nPlease take necessary actions.\nLogin to your dashboard at dashboard.wisense.in/login\nTime: ${timeNow}\n\nThanks,\nWiSense Technologies"
+        }
+      },
+      {
+        "additionalInfo": {
+          "layoutX": 2682,
+          "layoutY": 703
+        },
+        "type": "org.thingsboard.rule.engine.mail.TbSendEmailNode",
+        "name": "alerts",
+        "debugMode": false,
+        "configuration": {
+          "useSystemSmtpSettings": true,
+          "smtpHost": "localhost",
+          "smtpPort": 25,
+          "username": null,
+          "password": null,
+          "smtpProtocol": "smtp",
+          "timeout": 10000,
+          "enableTls": false,
+          "tlsVersion": "TLSv1.2"
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": null,
+          "layoutX": 1782,
+          "layoutY": 703
+        },
+        "type": "org.thingsboard.rule.engine.transform.TbTransformMsgNode",
+        "name": "RH email metadata",
+        "debugMode": false,
+        "configuration": {
+          "jsScript": "if (msg.details.sts === true) {\n    \n    var dateObj = new Date();\n    dateObj = dateObj.toString().slice(4, 24);\n    metadata.timeNow = dateObj + \" IST\";\n    metadata.val = msg.details.humidity;\n    metadata.mac = msg.details.mac;\n    metadata.type = msg.details.type;\n    metadata.unit = msg.details.unit;\n    \n    return {msg: msg.details, metadata: metadata, msgType: msgType};\n    \n}"
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": null,
+          "layoutX": 1782,
+          "layoutY": 902
+        },
+        "type": "org.thingsboard.rule.engine.action.TbClearAlarmNode",
+        "name": "Clear Alarm",
+        "debugMode": false,
+        "configuration": {
+          "alarmDetailsBuildJs": "var details = {};\r\n\r\ndetails.humidity = msg[\"0xb2\"];\r\ndetails.mac = msg.MacId;\r\ndetails.type = \"humidity\";\r\ndetails.clearedHumidity = msg[\"0xb2\"];\r\ndetails.unit = \"%\";\r\ndetails.sts = false;\r\n\r\nif (metadata.ss_b2_flag === \"true\") { //attributes are read as strings\r\n    details.sts = true;\r\n}\r\n\r\nreturn details;\r\n\r\n/*\r\nNote:\r\n'details.sts' is not a thingsboard native variable.\r\nIf 'true', then mail/sms action will be completed. \r\nOtherwise mail/sms will not be sent eventhough continuous \r\nalarms are created.\r\n*/\r\n\r\n\r\n",
+          "alarmType": "High Humidity"
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": null,
+          "layoutX": 1488,
+          "layoutY": 704
+        },
+        "type": "org.thingsboard.rule.engine.action.TbCreateAlarmNode",
+        "name": "Create Alarm",
+        "debugMode": false,
+        "configuration": {
+          "alarmDetailsBuildJs": "var details = {};\r\n\r\ndetails.humidity = msg[\"0xb2\"];\r\ndetails.mac = msg.MacId;\r\ndetails.type = \"humidity\";\r\ndetails.sts = false;\r\ndetails.unit = \"%\";\r\n\r\nif (metadata.ss_b2_flag === \"true\") { //attributes are read as strings\r\n    details.sts = true; \r\n}\r\n\r\nreturn details;\r\n\r\n\r\n/*\r\nNote:\r\n'details.sts' is not a thingsboard native variable.\r\nIf 'true', then mail/sms action will be completed. \r\nOtherwise mail/sms will not be sent eventhough continuous \r\nalarms are updated.\r\n*/\r\n",
+          "useMessageAlarmData": false,
+          "alarmType": "High Humidity",
+          "severity": "WARNING",
+          "propagate": false,
+          "relationTypes": []
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": null,
+          "layoutX": 1217,
+          "layoutY": 808
+        },
+        "type": "org.thingsboard.rule.engine.filter.TbJsFilterNode",
+        "name": "RH Threshold Upper",
+        "debugMode": false,
+        "configuration": {
+          "jsScript": "return msg[\"0xb2\"] > metadata.ss_b2_up;"
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": "",
+          "layoutX": 2379,
+          "layoutY": 758
+        },
+        "type": "org.thingsboard.rule.engine.rest.TbRestApiCallNode",
+        "name": "textlocal",
+        "debugMode": true,
+        "configuration": {
+          "restEndpointUrlPattern": "https://api.textlocal.in/send/?sender=${sender}&apikey=${apikey}&numbers=${numbers}&message=${message}",
+          "requestMethod": "GET",
+          "useSimpleClientHttpFactory": true,
+          "readTimeoutMs": 0,
+          "maxParallelRequestsCount": 0,
+          "headers": {},
+          "useRedisQueueForMsgPersistence": false,
+          "trimQueue": false,
+          "maxQueueSize": 0
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": null,
+          "layoutX": 1483,
+          "layoutY": 549
+        },
+        "type": "org.thingsboard.rule.engine.filter.TbJsFilterNode",
+        "name": "Hysteresis check",
+        "debugMode": false,
+        "configuration": {
+          "jsScript": "return (msg[\"0xb3\"] > (Number(metadata.ss_b3_low) + Number(metadata.ss_b3_hyst))) && (msg[\"0xb3\"] < metadata.ss_b3_up);"
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": "We are using GET method (Over SSL). Textlocal server is not accepting \"urlecoded\" POST body sent by Thingsboard.",
+          "layoutX": 2080,
+          "layoutY": 415
+        },
+        "type": "org.thingsboard.rule.engine.transform.TbTransformMsgNode",
+        "name": "temp sms metadata",
+        "debugMode": false,
+        "configuration": {
+          "jsScript": "metadata.val = msg.details.temperature;\n\nvar dateObj = new Date();\ndateObj = dateObj.toString().slice(4, 24) + \" IST\";\n\nmetadata.sender = metadata.sendername;\nmetadata.apikey = metadata.smsapi;\nmetadata.numbers = metadata.mobiles;\nmetadata.message = \"Attention! Dear Customer, Device \" + msg.details.mac + \" from \" + metadata.deviceName + \" reporting low \" + msg.details.type + \", \" + metadata.val + \" \" + msg.details.unit + \" - WiSense Dashboard (\" + dateObj + \")\"; \n\nif (msg.details.sts === true) {\n    return {msg: msg, metadata: metadata, msgType: msgType};\n}"
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": null,
+          "layoutX": 2683,
+          "layoutY": 548
+        },
+        "type": "org.thingsboard.rule.engine.mail.TbMsgToEmailNode",
+        "name": "SendGrid",
+        "debugMode": false,
+        "configuration": {
+          "fromTemplate": "WiSense Alerts <alerts-no-reply@wisense.in>",
+          "toTemplate": "${emails}",
+          "ccTemplate": null,
+          "bccTemplate": null,
+          "subjectTemplate": "Alert Clear : Device ${mac} restored normal ${type}, ${val} ${unit}",
+          "bodyTemplate": "Dear Customer,\n\nDevice ${mac} from ${deviceName} restored normal ${type}, ${val} ${unit}\nNo immediate actions required.\nLogin to your dashboard at dashboard.wisense.in/login\nTime: ${timeNow} \n\nThanks,\nWiSense Technologies"
+        }
+      },
+      {
+        "additionalInfo": {
+          "layoutX": 2978,
+          "layoutY": 550
+        },
+        "type": "org.thingsboard.rule.engine.mail.TbSendEmailNode",
+        "name": "alerts",
+        "debugMode": false,
+        "configuration": {
+          "useSystemSmtpSettings": true,
+          "smtpHost": "localhost",
+          "smtpPort": 25,
+          "username": null,
+          "password": null,
+          "smtpProtocol": "smtp",
+          "timeout": 10000,
+          "enableTls": false,
+          "tlsVersion": "TLSv1.2"
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": "",
+          "layoutX": 2379,
+          "layoutY": 279
+        },
+        "type": "org.thingsboard.rule.engine.metadata.TbGetCustomerAttributeNode",
+        "name": "email ids",
+        "debugMode": false,
+        "configuration": {
+          "telemetry": false,
+          "attrMapping": {
+            "emails": "emails"
+          }
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": "",
+          "layoutX": 1774,
+          "layoutY": 139
+        },
+        "type": "org.thingsboard.rule.engine.metadata.TbGetCustomerAttributeNode",
+        "name": "SMS conf. and Nums.",
+        "debugMode": false,
+        "configuration": {
+          "telemetry": false,
+          "attrMapping": {
+            "mobiles": "mobiles",
+            "smsapi": "smsapi",
+            "sendername": "sendername"
+          }
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": "",
+          "layoutX": 2078,
+          "layoutY": 358
+        },
+        "type": "org.thingsboard.rule.engine.metadata.TbGetCustomerAttributeNode",
+        "name": "email ids",
+        "debugMode": false,
+        "configuration": {
+          "telemetry": false,
+          "attrMapping": {
+            "emails": "emails"
+          }
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": "",
+          "layoutX": 2378,
+          "layoutY": 551
+        },
+        "type": "org.thingsboard.rule.engine.metadata.TbGetCustomerAttributeNode",
+        "name": "email ids",
+        "debugMode": false,
+        "configuration": {
+          "telemetry": false,
+          "attrMapping": {
+            "emails": "emails"
+          }
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": "",
+          "layoutX": 2077,
+          "layoutY": 704
+        },
+        "type": "org.thingsboard.rule.engine.metadata.TbGetCustomerAttributeNode",
+        "name": "email ids",
+        "debugMode": false,
+        "configuration": {
+          "telemetry": false,
+          "attrMapping": {
+            "emails": "emails"
+          }
+        }
+      }
+    ],
+    "connections": [
+      {
+        "fromIndex": 0,
+        "toIndex": 1,
+        "type": "Success"
+      },
+      {
+        "fromIndex": 2,
+        "toIndex": 3,
+        "type": "Success"
+      },
+      {
+        "fromIndex": 4,
+        "toIndex": 5,
+        "type": "Success"
+      },
+      {
+        "fromIndex": 6,
+        "toIndex": 7,
+        "type": "Success"
+      },
+      {
+        "fromIndex": 8,
+        "toIndex": 9,
+        "type": "Success"
+      },
+      {
+        "fromIndex": 10,
+        "toIndex": 11,
+        "type": "Success"
+      },
+      {
+        "fromIndex": 12,
+        "toIndex": 13,
+        "type": "Success"
+      },
+      {
+        "fromIndex": 14,
+        "toIndex": 15,
+        "type": "Success"
+      },
+      {
+        "fromIndex": 16,
+        "toIndex": 17,
+        "type": "Success"
+      },
+      {
+        "fromIndex": 18,
+        "toIndex": 19,
+        "type": "Success"
+      },
+      {
+        "fromIndex": 20,
+        "toIndex": 111,
+        "type": "Success"
+      },
+      {
+        "fromIndex": 21,
+        "toIndex": 86,
+        "type": "Success"
+      },
+      {
+        "fromIndex": 22,
+        "toIndex": 97,
+        "type": "Success"
+      },
+      {
+        "fromIndex": 23,
+        "toIndex": 48,
+        "type": "Success"
+      },
+      {
+        "fromIndex": 24,
+        "toIndex": 53,
+        "type": "Success"
+      },
+      {
+        "fromIndex": 25,
+        "toIndex": 72,
+        "type": "Success"
+      },
+      {
+        "fromIndex": 26,
+        "toIndex": 46,
+        "type": "Success"
+      },
+      {
+        "fromIndex": 27,
+        "toIndex": 84,
+        "type": "Success"
+      },
+      {
+        "fromIndex": 28,
+        "toIndex": 100,
+        "type": "Success"
+      },
+      {
+        "fromIndex": 29,
+        "toIndex": 61,
+        "type": "Success"
+      },
+      {
+        "fromIndex": 30,
+        "toIndex": 75,
+        "type": "Cleared"
+      },
+      {
+        "fromIndex": 30,
+        "toIndex": 26,
+        "type": "Cleared"
+      },
+      {
+        "fromIndex": 31,
+        "toIndex": 117,
+        "type": "Success"
+      },
+      {
+        "fromIndex": 32,
+        "toIndex": 33,
+        "type": "Success"
+      },
+      {
+        "fromIndex": 33,
+        "toIndex": 0,
+        "type": "Success"
+      },
+      {
+        "fromIndex": 34,
+        "toIndex": 116,
+        "type": "Success"
+      },
+      {
+        "fromIndex": 35,
+        "toIndex": 31,
+        "type": "Cleared"
+      },
+      {
+        "fromIndex": 35,
+        "toIndex": 21,
+        "type": "Cleared"
+      },
+      {
+        "fromIndex": 36,
+        "toIndex": 34,
+        "type": "Created"
+      },
+      {
+        "fromIndex": 36,
+        "toIndex": 20,
+        "type": "Created"
+      },
+      {
+        "fromIndex": 38,
+        "toIndex": 66,
+        "type": "True"
+      },
+      {
+        "fromIndex": 39,
+        "toIndex": 68,
+        "type": "Success"
+      },
+      {
+        "fromIndex": 40,
+        "toIndex": 99,
+        "type": "Success"
+      },
+      {
+        "fromIndex": 41,
+        "toIndex": 70,
+        "type": "Success"
+      },
+      {
+        "fromIndex": 42,
+        "toIndex": 110,
+        "type": "False"
+      },
+      {
+        "fromIndex": 42,
+        "toIndex": 36,
+        "type": "True"
+      },
+      {
+        "fromIndex": 43,
+        "toIndex": 69,
+        "type": "True"
+      },
+      {
+        "fromIndex": 43,
+        "toIndex": 42,
+        "type": "True"
+      },
+      {
+        "fromIndex": 44,
+        "toIndex": 43,
+        "type": "Success"
+      },
+      {
+        "fromIndex": 45,
+        "toIndex": 59,
+        "type": "Success"
+      },
+      {
+        "fromIndex": 46,
+        "toIndex": 47,
+        "type": "Success"
+      },
+      {
+        "fromIndex": 48,
+        "toIndex": 49,
+        "type": "Success"
+      },
+      {
+        "fromIndex": 50,
+        "toIndex": 51,
+        "type": "Success"
+      },
+      {
+        "fromIndex": 52,
+        "toIndex": 50,
+        "type": "Success"
+      },
+      {
+        "fromIndex": 53,
+        "toIndex": 54,
+        "type": "Success"
+      },
+      {
+        "fromIndex": 55,
+        "toIndex": 73,
+        "type": "Success"
+      },
+      {
+        "fromIndex": 56,
+        "toIndex": 8,
+        "type": "Success"
+      },
+      {
+        "fromIndex": 57,
+        "toIndex": 88,
+        "type": "Success"
+      },
+      {
+        "fromIndex": 58,
+        "toIndex": 52,
+        "type": "Cleared"
+      },
+      {
+        "fromIndex": 58,
+        "toIndex": 94,
+        "type": "Cleared"
+      },
+      {
+        "fromIndex": 59,
+        "toIndex": 16,
+        "type": "Success"
+      },
+      {
+        "fromIndex": 60,
+        "toIndex": 114,
+        "type": "Success"
+      },
+      {
+        "fromIndex": 61,
+        "toIndex": 62,
+        "type": "Success"
+      },
+      {
+        "fromIndex": 62,
+        "toIndex": 18,
+        "type": "Success"
+      },
+      {
+        "fromIndex": 63,
+        "toIndex": 29,
+        "type": "Success"
+      },
+      {
+        "fromIndex": 64,
+        "toIndex": 40,
+        "type": "Post telemetry"
+      },
+      {
+        "fromIndex": 64,
+        "toIndex": 39,
+        "type": "Post telemetry"
+      },
+      {
+        "fromIndex": 64,
+        "toIndex": 65,
+        "type": "Post attributes"
+      },
+      {
+        "fromIndex": 64,
+        "toIndex": 82,
+        "type": "Post telemetry"
+      },
+      {
+        "fromIndex": 64,
+        "toIndex": 44,
+        "type": "Post telemetry"
+      },
+      {
+        "fromIndex": 66,
+        "toIndex": 60,
+        "type": "Cleared"
+      },
+      {
+        "fromIndex": 66,
+        "toIndex": 27,
+        "type": "Cleared"
+      },
+      {
+        "fromIndex": 67,
+        "toIndex": 63,
+        "type": "Created"
+      },
+      {
+        "fromIndex": 67,
+        "toIndex": 115,
+        "type": "Created"
+      },
+      {
+        "fromIndex": 68,
+        "toIndex": 81,
+        "type": "True"
+      },
+      {
+        "fromIndex": 69,
+        "toIndex": 38,
+        "type": "False"
+      },
+      {
+        "fromIndex": 69,
+        "toIndex": 67,
+        "type": "True"
+      },
+      {
+        "fromIndex": 71,
+        "toIndex": 30,
+        "type": "True"
+      },
+      {
+        "fromIndex": 72,
+        "toIndex": 80,
+        "type": "Success"
+      },
+      {
+        "fromIndex": 73,
+        "toIndex": 74,
+        "type": "Success"
+      },
+      {
+        "fromIndex": 74,
+        "toIndex": 14,
+        "type": "Success"
+      },
+      {
+        "fromIndex": 75,
+        "toIndex": 55,
+        "type": "Success"
+      },
+      {
+        "fromIndex": 76,
+        "toIndex": 77,
+        "type": "Success"
+      },
+      {
+        "fromIndex": 77,
+        "toIndex": 12,
+        "type": "Success"
+      },
+      {
+        "fromIndex": 78,
+        "toIndex": 90,
+        "type": "Success"
+      },
+      {
+        "fromIndex": 79,
+        "toIndex": 78,
+        "type": "Created"
+      },
+      {
+        "fromIndex": 79,
+        "toIndex": 25,
+        "type": "Created"
+      },
+      {
+        "fromIndex": 81,
+        "toIndex": 79,
+        "type": "True"
+      },
+      {
+        "fromIndex": 81,
+        "toIndex": 71,
+        "type": "False"
+      },
+      {
+        "fromIndex": 83,
+        "toIndex": 58,
+        "type": "True"
+      },
+      {
+        "fromIndex": 84,
+        "toIndex": 85,
+        "type": "Success"
+      },
+      {
+        "fromIndex": 86,
+        "toIndex": 87,
+        "type": "Success"
+      },
+      {
+        "fromIndex": 88,
+        "toIndex": 92,
+        "type": "Success"
+      },
+      {
+        "fromIndex": 89,
+        "toIndex": 91,
+        "type": "Success"
+      },
+      {
+        "fromIndex": 90,
+        "toIndex": 76,
+        "type": "Success"
+      },
+      {
+        "fromIndex": 91,
+        "toIndex": 93,
+        "type": "Success"
+      },
+      {
+        "fromIndex": 92,
+        "toIndex": 56,
+        "type": "Success"
+      },
+      {
+        "fromIndex": 93,
+        "toIndex": 10,
+        "type": "Success"
+      },
+      {
+        "fromIndex": 94,
+        "toIndex": 89,
+        "type": "Success"
+      },
+      {
+        "fromIndex": 95,
+        "toIndex": 57,
+        "type": "Created"
+      },
+      {
+        "fromIndex": 95,
+        "toIndex": 24,
+        "type": "Created"
+      },
+      {
+        "fromIndex": 96,
+        "toIndex": 106,
+        "type": "True"
+      },
+      {
+        "fromIndex": 97,
+        "toIndex": 109,
+        "type": "Success"
+      },
+      {
+        "fromIndex": 98,
+        "toIndex": 95,
+        "type": "True"
+      },
+      {
+        "fromIndex": 98,
+        "toIndex": 83,
+        "type": "False"
+      },
+      {
+        "fromIndex": 99,
+        "toIndex": 98,
+        "type": "True"
+      },
+      {
+        "fromIndex": 99,
+        "toIndex": 108,
+        "type": "True"
+      },
+      {
+        "fromIndex": 100,
+        "toIndex": 101,
+        "type": "Success"
+      },
+      {
+        "fromIndex": 101,
+        "toIndex": 6,
+        "type": "Success"
+      },
+      {
+        "fromIndex": 102,
+        "toIndex": 28,
+        "type": "Success"
+      },
+      {
+        "fromIndex": 103,
+        "toIndex": 104,
+        "type": "Success"
+      },
+      {
+        "fromIndex": 104,
+        "toIndex": 4,
+        "type": "Success"
+      },
+      {
+        "fromIndex": 105,
+        "toIndex": 118,
+        "type": "Success"
+      },
+      {
+        "fromIndex": 106,
+        "toIndex": 102,
+        "type": "Cleared"
+      },
+      {
+        "fromIndex": 106,
+        "toIndex": 23,
+        "type": "Cleared"
+      },
+      {
+        "fromIndex": 107,
+        "toIndex": 105,
+        "type": "Created"
+      },
+      {
+        "fromIndex": 107,
+        "toIndex": 22,
+        "type": "Created"
+      },
+      {
+        "fromIndex": 108,
+        "toIndex": 96,
+        "type": "False"
+      },
+      {
+        "fromIndex": 108,
+        "toIndex": 107,
+        "type": "True"
+      },
+      {
+        "fromIndex": 110,
+        "toIndex": 35,
+        "type": "True"
+      },
+      {
+        "fromIndex": 111,
+        "toIndex": 37,
+        "type": "Success"
+      },
+      {
+        "fromIndex": 112,
+        "toIndex": 113,
+        "type": "Success"
+      },
+      {
+        "fromIndex": 113,
+        "toIndex": 2,
+        "type": "Success"
+      },
+      {
+        "fromIndex": 114,
+        "toIndex": 45,
+        "type": "Success"
+      },
+      {
+        "fromIndex": 115,
+        "toIndex": 41,
+        "type": "Success"
+      },
+      {
+        "fromIndex": 116,
+        "toIndex": 32,
+        "type": "Success"
+      },
+      {
+        "fromIndex": 117,
+        "toIndex": 112,
+        "type": "Success"
+      },
+      {
+        "fromIndex": 118,
+        "toIndex": 103,
+        "type": "Success"
+      }
+    ],
+    "ruleChainConnections": null
+  }
+}
