@@ -1,5 +1,5 @@
 {
-  "title": "Chamber-01",
+  "title": "YourSampleDashboard",
   "configuration": {
     "widgets": {
       "d5b426d3-b3ba-c14b-9951-7d89466d1eb5": {
@@ -1291,23 +1291,6 @@
                 "postFuncBody": null
               },
               {
-                "name": "endTime",
-                "type": "alarm",
-                "label": "Last message time",
-                "color": "#9c27b0",
-                "settings": {
-                  "columnWidth": "0px",
-                  "useCellStyleFunction": false,
-                  "useCellContentFunction": false
-                },
-                "_hash": 0.6046100588306826,
-                "units": null,
-                "decimals": null,
-                "funcBody": null,
-                "usePostProcessing": null,
-                "postFuncBody": null
-              },
-              {
                 "name": "clearTime",
                 "type": "alarm",
                 "label": "Cleared time",
@@ -1825,7 +1808,7 @@
             "labelFunction": "var deviceType = dsData[dsIndex]['deviceType'];\r\nif (typeof deviceType !== undefined) {\r\n    if (deviceType == \"energy meter\") {\r\n        return '<span style=\"color:orange;\">${entityName}, ${energy:2} kWt</span>';\r\n    } else if (deviceType == \"thermometer\") {\r\n        return '<span style=\"color:blue;\">${entityName}, ${temperature:2} °C</span>';\r\n    }\r\n}",
             "provider": "here",
             "defaultCenterPosition": "0,0",
-            "showTooltipAction": "hover",
+            "showTooltipAction": "click",
             "mapProviderHere": "HERE.normalDay",
             "credentials": {
               "app_id": "AhM6TzD9ThyK78CT3ptx",
@@ -1857,7 +1840,7 @@
     },
     "states": {
       "default": {
-        "name": "Chamber-01",
+        "name": "YourSampleDashboard",
         "root": true,
         "layouts": {
           "main": {
@@ -1980,13 +1963,13 @@
     "entityAliases": {
       "c9cf193d-7f27-4a14-608c-c5d878547fdd": {
         "id": "c9cf193d-7f27-4a14-608c-c5d878547fdd",
-        "alias": "Chamber-01",
+        "alias": "yourDeviceNAme",
         "filter": {
           "type": "singleEntity",
           "resolveMultiple": false,
           "singleEntity": {
             "entityType": "DEVICE",
-            "id": "8b1eb580-c4e2-11ea-b53c-493441c2f1fa"
+            "id": "ce328ec0-d1bf-11ea-b20b-f586c5bcebf9"
           }
         }
       },
@@ -2038,5 +2021,5 @@
     },
     "description": "WXI-RH/T-10 (Relative Humidity & Temperature)"
   },
-  "name": "Chamber-01"
+  "name": "YourSampleDashboard"
 }
