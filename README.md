@@ -17,7 +17,7 @@ In order to alerts and alarm feature work - this rule-chain should be made as ro
 <b>1. yoursampledashboard.json:</b> 
 Use to replicate dashboards. 
 Once imported, a prompt will ask to edit alias. Click (✎) icon, rename and select the target device 
-from dropdown.
+from dropdown. Read "Dashboard_AdminDoc.pdf" for detailed setup.
 
 <b>2. mastercontrols.json:</b>
 Common for all admin accounts unless otherwise required. 
