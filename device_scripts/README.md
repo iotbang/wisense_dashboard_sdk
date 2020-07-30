@@ -5,10 +5,12 @@ Requirements: gnu-coreutils installed (Default available in git-bash and ubuntu)
 
 # mqtt.sh
 Use to simulate a WXI-RH/T-10 device via MQTT telemetry api.
-Prerequisite: mosquitto servive  istalled on the machine.
+Prerequisite: mosquitto mqtt service installed on the machine.
 <pre><b>Usage: ./mqtt.sh access_token sending_interval(in seconds)</b></pre>
 
 # update_gps.sh
 Use to update GPS coordinates on the device dashboard map.
-Requirement: Nothing
-<pre><b>Usage: ./update_gps access_token latitude longitude</b></pre>
+Requirement: No special requ irements.
+<pre><b>Usage: ./update_gps access_token latitude longitude</b></pre><br>
+
+For more, refer [Dashboard_AdminDoc.pdf](https://github.com/iotbang/wisense_dashboard_sdk/blob/master/Dashboard_AdminDoc.pdf).
