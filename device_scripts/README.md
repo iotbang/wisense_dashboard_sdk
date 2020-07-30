@@ -5,7 +5,8 @@ Requirements: gnu-coreutils installed (Default available in git-bash and ubuntu)
 
 # mqtt.sh
 Use to simulate a WXI-RH/T-10 device via MQTT telemetry api.
-Prerequisite: mosquitto mqtt service installed on the machine.
+Prerequisite: mosquitto mqtt service installed on the machine.<br>
+[Follow help](https://github.com/iotbang/wisense_dashboard_sdk/blob/master/device_scripts/install_mosquitto_mqtt_linux.txt)
 <pre><b>Usage: ./mqtt.sh access_token sending_interval(in seconds)</b></pre>
 
 # update_gps.sh
