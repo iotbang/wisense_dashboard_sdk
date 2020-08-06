@@ -1,4 +1,4 @@
-Device name and MacId should be changed/reviewed in [device.json](https://github.com/iotbang/wisense_dashboard_sdk/blob/master/device_scripts/device.json) before running scripts.
+Important: Device name and Mac ID should be changed/reviewed in [device.json](https://github.com/iotbang/wisense_dashboard_sdk/blob/master/device_scripts/device.json) before running scripts.
 
 # device.sh
 Use to simulate a WXI-RH/T-10 device via HTTP telemetry api.
