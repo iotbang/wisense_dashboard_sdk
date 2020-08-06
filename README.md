@@ -3,7 +3,7 @@
 
 # I. Device scripts: 
 Use these scripts to simulate devices for demo or testing required at different stages of deployment.<br> 
-As of now scripts directly simulate "WXI-RH/T-10" device. Tweak payload according to the required sensor node device.<br>
+As of now scripts directly simulate "WXI-RH/T-10" device. Device name and MacId can be changed in [device.json](https://github.com/iotbang/wisense_dashboard_sdk/blob/master/device_scripts/device.json).<br>
 Refer the [README](https://github.com/iotbang/wisense_dashboard_sdk/blob/master/device_scripts/README.md) included in the [device scripts](https://github.com/iotbang/wisense_dashboard_sdk/tree/master/device_scripts) directory.
 
 
