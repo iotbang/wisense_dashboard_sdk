@@ -13,7 +13,7 @@ read -p "$(echo -e "\n${YEL}Verify format:${NC} ./update_gps.sh ACCESS_TOKEN LAT
 
 case $input in
 [yY])
-    echo -e ">>\n\n${OK}Sharing device GPS coordinates...${NC}"
+    echo -e ">>\n\n${OK}Sharing coordinates...${NC}"
 
     # Making curl command and POST body. 
     cmdpart1="curl -o /dev/null -s -w \"%{http_code}\" -H \"Accept: application/json\" -H \"Content-type: application/json\" POST -d "
@@ -30,13 +30,13 @@ case $input in
     if [ $responseCode -eq 200 ] ; then
         echo -e "${OK}COORDINATES UPDATE SUCCESS.${NC}"
     elif [ $responseCode -eq 400 ] ; then
-        echo -e "${WARN}Bad request - HTTP - 400${NC} - Review your request!"
+        echo -e "${WARN}Bad request - HTTP - 400${NC} - Review your request."
     elif [ $responseCode -eq 401 ] ; then
-        echo -e "${WARN}Unauthorised: Invalid access token!${NC} - Review credentials!"
+        echo -e "${WARN}Unauthorised: Invalid access token.${NC} - Review credentials."
     elif [ $responseCode -eq 404 ] ; then
-        echo -e "${WARN}Resource not found - 404${NC} - Review your request!"
+        echo -e "${WARN}Resource not found - 404${NC} - Review your request."
     else 
-        echo -e "${WARN}Unknown error - HTTP - ${responseCode}${NC} - Review request!"
+        echo -e "${WARN}Unknown error - HTTP - ${responseCode}${NC} - Review request."
     fi
     ;;
 *)
